@@ -1,0 +1,3 @@
+include ':DynamicTimeWarping'
+include ':app'
+rootProject.name = "DynamicTimeWarpingExample"
