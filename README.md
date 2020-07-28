@@ -1,8 +1,7 @@
 # Android Dynamic Time Warping Library
 
-This library, along with its example app, is a foray into gesture detection. The intended purpose is to visually demonstrate DTW's utility and make setup for experimentation as easy as possible.
+This library, along with its example app, is a foray into gesture detection. The intended purpose is to visually demonstrate DTW's utility and make setup for further experimentation as easy as possible.
 
-## Example
 
 ![Image](https://media0.giphy.com/media/UqNI34fQGIoyzzFXVy/giphy.gif)
 
@@ -23,7 +22,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-	        implementation 'com.github.xep426.DTWarp-Android.DynamicTimeWarping:-SNAPSHOT'
+        implementation 'com.github.xep426:DTWarp-Android:v.0.1.0'
 	}
 ```
 
