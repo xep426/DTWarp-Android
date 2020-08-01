@@ -1,9 +1,10 @@
 # Android Dynamic Time Warping Library
 
-This library, along with its example app, is a foray into gesture detection. The intended purpose is to visually demonstrate DTW's utility and make setup for further experimentation as easy as possible.
+This library, along with its example app, is a foray into gesture detection. The intended purpose is to provide a visual demonstration and make setup for further experimentation as easy as possible.
 
 
-![Image](https://media0.giphy.com/media/UqNI34fQGIoyzzFXVy/giphy.gif)
+![Image](https://media3.giphy.com/media/gHhreeLlak3Qph5fDQ/giphy.gif)
+Check it out on: [Google Play](https://play.google.com/store/apps/details?id=com.gmail.xep426.dynamictimewarpingexample)
 
 ## Download
 
@@ -35,7 +36,7 @@ Step 2. Repeatedly call `DTWarp#exec(Float)` in order to compare a continous str
 
 ## TODO
 1. Introduce support for multi dimensional sequences
-2. Reassess abstraction level
+2. Assess broadening scope to include assisted learning techniques
 
 ## License 
 

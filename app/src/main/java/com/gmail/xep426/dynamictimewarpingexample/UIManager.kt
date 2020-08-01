@@ -58,7 +58,7 @@ class UIManager (mainActivity: MainActivity) : GestureDetector.SimpleOnGestureLi
         liveDtwDistanceGraphView.scaleFactor = 1
 
         startDetectingButton.isClickable = false
-        startDetectingButton.alpha = 0.2f
+        startDetectingButton.alpha = 0.4f
         startDetectingButton.text
 
         startDetectingButton.setBackgroundColor(Color.rgb(27,94,32))
