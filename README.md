@@ -4,6 +4,7 @@ This library, along with its example app, is a foray into gesture detection. The
 
 
 ![Image](https://media3.giphy.com/media/gHhreeLlak3Qph5fDQ/giphy.gif)
+
 Check it out on: [Google Play](https://play.google.com/store/apps/details?id=com.gmail.xep426.dynamictimewarpingexample)
 
 ## Download
