@@ -1,6 +1,6 @@
 # Android Dynamic Time Warping Library
 
-The example app provided lets you record a reference sequence of accellerometer values which can then be compared to a continuous stream of live accelerometer data. DTWarp is a basic Kotlin implementation of the [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorithm. DTWarp will cache live data in a ring buffer and calculate the distance between the reference sequence and the live data every time it receives a new value. The smaller the calculated distance the more similar the two sequences being compared will be. Once a distances below a set threshold is computed the example app will halt.
+The example app provided lets you record a reference sequence of accellerometer values which can then be compared to a continuous stream of live accelerometer data. DTWarp is a basic Kotlin implementation of the [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorithm. DTWarp will cache live data in a ring buffer and calculate the distance between the reference sequence and the live data every time it receives a new value. The smaller the calculated distance the more similar the two sequences being compared will be. Once a distance below a set threshold is computed the example app will halt.
 
 While the screenshot below only showcases a simple knock gesture detection, DTW is a state of the art algorithm which forms the basis for many complex machine learning algorithms. 
 
