@@ -1,8 +1,8 @@
 # Android Dynamic Time Warping Library
 
-The example app provided lets you record a reference sequence of accellerometer values which can then be compared to a continuous stream of live accelerometer data. DTWarp is a basic Kotlin implementation of the [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorithm. DTWarp will cache live data in a ring buffer and calculate the distance between the reference sequence and the live data every time it receives a new value. The smaller the calculated distance the more similar the two sequences being compared will be. Once a distance below a set threshold is computed the example app will halt.
+DTWarp is a Kotlin implementation of the [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorithm. DTWarp caches float values in a ring buffer and calculates the distance between a reference sequence (provided during initialization) and the cached data every time it receives a new value. The smaller the calculated distance the more similar the two sequences being compared will be.
 
-While the screenshot below only showcases a simple knock gesture detection, DTW is a state of the art algorithm which forms the basis for many complex machine learning algorithms. 
+The example app lets you record a reference sequence of z-axis accellerometer values. This reference sequence can then be compared to a continuous live stream of z-axis accelerometer data. Once a distance below a set threshold is computed the example app will halt DTWarp execution.
 
 ![Image](https://media3.giphy.com/media/gHhreeLlak3Qph5fDQ/giphy.gif)
 
@@ -35,12 +35,6 @@ Step 1. Initialize a DTWarp object by passing it a reference sequence of floatin
 
 Step 2. Repeatedly call `DTWarp#exec(Float)` in order to compare a continous stream of values to the reference sequence. `DTWarp#exec(Float)` will return a distance for each invocation.
 
-
-## TODO
-1. Move calculations to coroutine
-2. Integrate sensor selection, setup and reference sequence recording into DTWarp library
-3. ???
-4. Supervised learning 
 
 ## License 
 
